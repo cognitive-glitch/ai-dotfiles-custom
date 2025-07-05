@@ -99,14 +99,15 @@
             "WebFetch(domain:rook.io)",
             "mcp__serena",
             "mcp__aid",
-            "mcp__code-parser""mcp__context7",
+            "mcp__code-parser",
+            "mcp__context7",
             "mcp__thinking-tool",
             "mcp__sequential-thinking",
             "mcp__sequentialthinking-tools",
             "mcp__time",
             "mcp__actor-critic-thinking",
             "mcp__consult7",
-            "mcp__ref-tools",
+            "mcp__ref-tools"
         ],
         "deny": [
             "Bash(rm -rf /)",
