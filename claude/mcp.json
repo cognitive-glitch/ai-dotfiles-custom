@@ -1,21 +1,30 @@
 {
   "mcpServers": {
+    "sequential-thinking-tools": {
+      "command": "npx",
+      "args": ["-y", "mcp-sequentialthinking-tools"]
+    },
     "git": {
       "command": "uvx",
       "args": ["mcp-server-git"]
     },
-    "sequential-thinking": {
+    "github-cli": {
       "command": "npx",
-      "args": ["-y", "@modelcontextprotocol/server-sequential-thinking"]
+      "args": ["-y", "gh-cli-mcp"]
     },
     "context7": {
       "type": "stdio",
       "command": "npx",
       "args": ["-y", "@upstash/context7-mcp"]
     },
-    "puppeteer": {
-      "command": "npx",
-      "args": ["-y", "@modelcontextprotocol/server-puppeteer"]
+    "code-parser": {
+      "command": "uvx",
+      "args": [
+          "--from",
+          "git+https://github.com/boxabirds/mcp-code-parser",
+          "mcp-code-parser",
+          "serve"
+      ]
     }
   }
 }
