@@ -8,6 +8,6 @@
 
 2. Clone and install:
    ```bash
-   git clone https://github.com/wcygan/dotfiles.git && cd dotfiles
+   git clone https://github.com/cognitive-glitch/ai-dotfiles-custom.git && cd dotfiles
    deno task install
    ```
