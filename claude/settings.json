@@ -96,7 +96,19 @@
             "WebFetch(domain:projectnessie.org)",
             "WebFetch(domain:spark.apache.org)",
             "WebFetch(domain:airflow.apache.org)",
-            "WebFetch(domain:rook.io)"
+            "WebFetch(domain:rook.io)",
+            "serena",
+            "context7",
+            "sequentialthinking_tools",
+            "thinking-tools",
+            "sequentialthinking",
+            "sequentialthinking-tools",
+            "code-parser",
+            "time",
+            "actor-critic-thinking",
+            "consult7",
+            "ref-tools",
+            "mcp__serena",
         ],
         "deny": [
             "Bash(rm -rf /)",
@@ -108,9 +120,11 @@
     },
     "env": {
         "CLAUDE_CODE_ENABLE_TELEMETRY": "0",
-        "DISABLE_TELEMETRY": "1"
+        "DISABLE_TELEMETRY": "1",
+        "BASH_MAX_TIMEOUT_MS": "600000",
     },
     "preferredNotifChannel": "terminal_bell",
     "verbose": true,
+    "cleanupPeriodDays": 90,
     "includeCoAuthoredBy": false
 }
